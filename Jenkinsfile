@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage ("code"){
             steps{
-                sg 'this is code'
+                sh 'this is code'
             }
         }
         stage ("build"){
