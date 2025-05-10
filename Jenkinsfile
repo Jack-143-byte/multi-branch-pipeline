@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage ("code"){
             steps {
-                git "https://github.com/Jack-143-byte/one.git"
+                git "https://github.com/github-username/applicationcode.git"
             }
         }
         stage ("Build"){
